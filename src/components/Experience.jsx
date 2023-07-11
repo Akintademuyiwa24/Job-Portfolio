@@ -3,8 +3,8 @@ import { BsPatchCheckFill } from "react-icons/bs";
 
 function Experience() {
   return (
-    <div id="experience" className="">
-      <h5 className="text-center text-xl font-bold mt-5 text-sky-800 dark:text-white">
+    <div id="experience" className="p-10">
+      <h5 className="text-center text-xl font-bold mt-5 text-sky-800 dark:text-white sm:ml-40">
         Experience
       </h5>
       <div className="shadow-lg p-10  rounded-xl my-3 bg-gray-800 text-white hover:text-white sm:ml-72 sm:w-[800px]">
