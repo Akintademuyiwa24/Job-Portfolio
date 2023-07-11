@@ -3,15 +3,16 @@ import { FaFacebook, FaInstagram, FaLinkedinIn, FaPython, FaTwitter } from 'reac
 import { SiReact } from 'react-icons/si'
 import { TbBrandCSharp, TbBrandGit, TbBrandJavascript, TbBrandTailwind } from 'react-icons/tb'
 import { TypeAnimation } from 'react-type-animation'
+import Face from '../assets/imggg.jpg'
 
 const Main = () => {
   return (
     <div id='main'>
-        <img className='w-full h-screen object-cover' src="https://images.pexels.com/photos/4555671/pexels-photo-4555671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
+        <img className='w-full h-screen object-cover' src="https://images.pexels.com/photos/96858/pexels-photo-96858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center text-center lg:items-start items-center'>
-                <h1 className='sm:text-5xl text-4xl font-bold text-gray-900'>I'm Emmanuel Akintade</h1>
-                <h2 className='sm:text-3xl text-2xl pt-4 text-gray-900 '>
+                <h1 className='sm:text-5xl text-4xl font-bold text-sky-900'>I'm Emmanuel Akintade</h1>
+                <h2 className='mb-3 sm:text-3xl text-2xl pt-4 text-amber-900'>
                     I'm a
                 <TypeAnimation
                 sequence={[
@@ -32,20 +33,23 @@ const Main = () => {
                 repeat={Infinity}
                 />
                 </h2>
-                <div className='flex justify-between pt-6 mb-5 max-w-[200px] w-full'>
-                    <FaTwitter size={20} className='cursor-pointer'/>
-                    <FaFacebook size={20} className='cursor-pointer'/>
-                    <FaLinkedinIn size={20} className='cursor-pointer'/>
-                    <FaInstagram size={20} className='cursor-pointer'/>
+                <div>
+                <img className="block mx-auto h-40 rounded-full sm:mx-0 sm:shrink-0" src={Face} alt="Face" />
                 </div>
-                <div className="flex justify-center gap-2 text-orange-900 text-xl mt-10 md:mt-3 md:gap-6 dark:text-orange-500">
-                    <h4 className="text-md">Tech Stack |</h4>
-                    <TbBrandJavascript size={30}/>
-                    <SiReact size={30}/>
-                    <TbBrandTailwind size={30}/>
-                    <FaPython size={30}/>
-                    <TbBrandCSharp size={30}/>
-                    <TbBrandGit size={30}/>
+                <div className='flex justify-between pt-6 mb-5 max-w-[200px] w-full'>
+                    <a href="https://twitter.com/AkintadeOlumuy3t?=onblQNa72GUAs_PSW-NN6A&s=09"><FaTwitter size={20} className='cursor-pointer'/></a>
+                    <FaFacebook size={20} className='cursor-pointer'/>
+                    <a href="https://www.linkedin.com/in/AkintadeOlumuyiwa"><FaLinkedinIn size={20} className='cursor-pointer'/></a>
+                    <a href="https://www.instagram.com/harkintade.ohlumber"><FaInstagram size={20} className='cursor-pointer'/></a>
+                </div>
+                <div className="flex justify-center gap-2 text-black text-xl mt-5 md:mt-3 md:gap-6 dark:text-orange-500">
+                    <h4 className="text-sm">Tech Stack |</h4>
+                    <TbBrandJavascript size={20}/>
+                    <SiReact size={20}/>
+                    <TbBrandTailwind size={20}/>
+                    <FaPython size={20}/>
+                    <TbBrandCSharp size={20}/>
+                    <TbBrandGit size={20}/>
                 </div>
 
 

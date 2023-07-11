@@ -5,6 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contacct'
 import Footer from './components/Footer'
+import Experience from './components/Experience'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <SideNav/>
       <Main/>
       <About/>
+      <Experience/>
       <Projects/>
       <Contact/>
       <Footer/>
