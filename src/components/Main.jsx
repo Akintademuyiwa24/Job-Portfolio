@@ -10,6 +10,9 @@ const Main = () => {
     <div id='main'>
         <img className='w-full h-screen object-cover' src="https://images.pexels.com/photos/96858/pexels-photo-96858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
+            <div className='backdrop-blur-md shadow-md bg-white/80  pb-2 fixed w-full md:hidden'>
+                ..
+            </div>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center text-center lg:items-start items-center'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-sky-900'>I'm Emmanuel Akintade</h1>
                 <h2 className='mb-3 sm:text-3xl text-2xl pt-4 text-amber-900'>
