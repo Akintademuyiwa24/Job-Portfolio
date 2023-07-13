@@ -5,7 +5,7 @@ import {FaRegHandPointDown} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div id='contact' className='sm:ml-40 p-10 '>
+    <div id='contact' className=' p-10 max-w-[1040px] m-auto md:pl-20 '>
         <div className='mb-14'>
             <h1 className='text-md font-bold text-[#001b5e]'>CONTACT</h1>
             <h5 className='font-bold'>Don't be shy! Hit me up! <FaRegHandPointDown className='inline text  '/> </h5>
