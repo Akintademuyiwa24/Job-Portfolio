@@ -14,7 +14,7 @@ const Main = () => {
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
             <Headroom>
             <div className='backdrop-blur-md shadow-md bg-gray-350/80 z-[999]  pb-2 fixed w-full md:hidden'>
-                <img src={logo} alt="logo" width={10} className='ml-1 mt-2 pb-1 text-black'/>
+                <img src={logo} alt="logo" width={10} className='ml-1 mt-3 pb-1 text-black'/>
             </div>
             </Headroom>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center text-center lg:items-start items-center'>

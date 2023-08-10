@@ -11,7 +11,7 @@ const SideNav = () => {
   return (
     <div>
         
-        <span className='absolute bg-white'><AiOutlineMenu onClick={handleNav} className='fixed top-2 right-4 z-[99] backdrop-blur-md shadow-md md:hidden'/></span>
+        <span className='absolute bg-white'><AiOutlineMenu onClick={handleNav} className='fixed top-2 right-4 z-[99] backdrop-blur-md shadow-md text-gray-700 md:hidden'/></span>
         {/* className='bg-white/80 pt-2 fixed backdrop-blur-md shadow-md z-10 md:hidden' */}
         {
             nav ? (
